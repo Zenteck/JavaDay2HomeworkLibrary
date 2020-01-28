@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Library {
 
     private int capacity = 3;
-    private ArrayList<Book> collection;
+    public ArrayList<Book> collection;
 
     public Library() {
         this.collection = new ArrayList<>();
@@ -17,5 +17,9 @@ public class Library {
         if(this.countCollection() < this.capacity) {
             this.collection.add(book);
         }
+    }
+
+    public void removeBook(Book book) {
+        this.collection.remove(book);
     }
 }
