@@ -7,11 +7,11 @@ import static org.junit.Assert.assertEquals;
 
 public class LibraryTest {
 
-    private Library library;
-    private Book book1;
-    private Book book2;
-    private Book book3;
-    private Book book4;
+    public Library library;
+    public Book book1;
+    public Book book2;
+    public Book book3;
+    public Book book4;
 
     @Before
     public void before(){
